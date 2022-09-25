@@ -1,6 +1,6 @@
 {
-  "title": "Microservices (REST)",
-  "description": "Einfache Applikation bestehend aus drei Microservices",
+  "title": "Microservices (Asynchron)",
+  "description": "Einfache Applikation bestehend aus drei Microservices und dem Messaging Server Kakfa",
   "details": {
     "intro": {
       "text": "intro.md"
