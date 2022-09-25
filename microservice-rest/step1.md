@@ -10,7 +10,7 @@ kubectl apply -f https://raw.githubusercontent.com/mc-b/misegr/master/ewolff/ms-
 ```{{exec}}
 
 
-Dabei sehen die YAML Datei wie folgt aus:
+Exemplarisch für die YAML Dateien, schauen wir uns das Beispiel des Apache Web Servers an.
 
 
 ```yaml
@@ -42,6 +42,8 @@ spec:
 
 ### Port forwarden
 
+Um auf das Menu zuzugreifen, wurde ein Service erstellt.
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -62,6 +64,8 @@ spec:
   selector:
     app: apache
 ```
+
+Nach einer gewissen Zeit sind die Microservices gestartet und können mittels Menu erreicht werden:
 
 [Microservices Menu]({{TRAFFIC_HOST1_32280}})
 
