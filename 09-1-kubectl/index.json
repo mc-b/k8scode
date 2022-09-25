@@ -1,0 +1,26 @@
+{
+  "title": "kubectl-CLI und Basis Ressourcen",
+  "description": "In dieser Übung verwenden wir das kubectl-Kommando zur Erstellen eines Pods und Services.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "text": "step1.md"
+      },
+      {        
+        "text": "step2.md"
+      },
+      {          
+        "text": "step3.md"
+      },
+      {          
+        "text": "step4.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
