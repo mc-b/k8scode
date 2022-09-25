@@ -6,7 +6,7 @@
 Install the customised K8s Dashboard YAML:
 
 ```plain
-kubectl apply -f [/root/dashboard.yaml](https://raw.githubusercontent.com/killercoda/scenario-examples/main/kubernetes-dashboard/assets/dashboard.yaml)
+kubectl apply -f https://raw.githubusercontent.com/killercoda/scenario-examples/main/kubernetes-dashboard/assets/dashboard.yaml
 kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all
 ```{{exec}}
 
